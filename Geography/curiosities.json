@@ -1,0 +1,587 @@
+{
+    "countries": [
+      {
+        "Afghanistan": "Cometas – Volar cometas es una actividad tradicional muy popular en Afganistán."
+      },
+      {
+        "Albania": "Búnkeres – Hay miles de pequeños búnkeres de concreto construidos en todo el país, que se han convertido en un símbolo curioso."
+      },
+      {
+        "Germany": "Pretzels – Un tipo de pan salado en forma de nudo muy famoso y delicioso."
+      },
+      {
+        "Andorra": "Esquí – Andorra es conocida por sus montañas y estaciones de esquí donde la gente va a deslizarse por la nieve."
+      },
+      {
+        "Angola": "Semba – Un estilo de música y baile tradicional muy alegre y típico de Angola."
+      },
+      {
+        "Antigua and Barbuda": "Playas de arena blanca – Este país es conocido por sus hermosas playas caribeñas."
+      },
+      {
+        "Saudi Arabia": "Dunas de arena – Arabia Saudita tiene vastos desiertos con grandes dunas de arena donde se puede hacer paseos en camello."
+      },
+      {
+        "Algeria": "El Sahara – Argelia tiene parte del desierto del Sahara, el más grande del mundo."
+      },
+      {
+        "Argentina": "El mate – Una bebida tradicional que se toma en grupo y se comparte, muy importante en la cultura argentina."
+      },
+      {
+        "Armenia": "Monte Ararat – Una montaña sagrada en Armenia que aparece en muchas leyendas e historias del país."
+      },
+      {
+        "Australia": "Canguros – Estos animales que saltan y llevan a sus crías en una bolsa son un símbolo de Australia."
+      },
+      {
+        "Austria": "El vals – Un baile elegante que es muy típico en Austria, sobre todo en grandes fiestas y eventos."
+      },
+      {
+        "Azerbaijan": "Bailes tradicionales – En Azerbaiyán, los bailes tradicionales son muy importantes y se realizan en festivales y celebraciones."
+      },
+      {
+        "Bahamas": "Junkanoo – Un festival muy colorido con disfraces y música que se celebra cada año en las Bahamas."
+      },
+      {
+        "Bangladesh": "Rikshaws – Estos vehículos de tres ruedas son una forma de transporte muy común en las calles de Bangladés."
+      },
+      {
+        "Barbados": "Buceo en arrecifes – Barbados es famoso por sus hermosos arrecifes de coral donde se puede bucear y ver peces de colores."
+      },
+      {
+        "Bahrain": "Las perlas – Baréin es conocido por sus perlas, que fueron durante siglos una parte importante de su economía."
+      },
+      {
+        "Belgium": "Chocolate – Los chocolates belgas son mundialmente famosos por ser muy deliciosos."
+      },
+      {
+        "Belize": "Barreras de coral – Belice tiene una de las barreras de coral más grandes del mundo, ideal para bucear y explorar la vida marina."
+      },
+      {
+        "Benin": "El arte del vudú – El vudú es una religión muy importante en Benín y tiene muchas ceremonias y rituales tradicionales."
+      },
+      {
+        "Belarus": "Las muñecas de paja – En Bielorrusia se hacen muñecas tradicionales con paja, que son símbolos de buena suerte."
+      },
+      {
+        "Myanmar": "Pagodas doradas – Birmania es famosa por sus pagodas, que son templos dorados muy antiguos y sagrados."
+      },
+      {
+        "Bolivia": "Salar de Uyuni – Es el desierto de sal más grande del mundo y parece un espejo gigante cuando se cubre de agua."
+      },
+      {
+        "Bosnia and Herzegovina": "Puente de Mostar – Un famoso puente antiguo que es un símbolo de paz y unión."
+      },
+      {
+        "Botswana": "El Delta del Okavango – Un gran río que forma un hermoso oasis en medio del desierto, lleno de animales como elefantes y leones."
+      },
+      {
+        "Brazil": "El Carnaval – Una de las fiestas más grandes del mundo, con desfiles, música y disfraces coloridos."
+      },
+      {
+        "Brunei": "La Mezquita de Omar Ali Saifuddien – Un hermoso templo dorado que parece flotar sobre el agua."
+      },
+      {
+        "Bulgaria": "Rosas – Bulgaria es conocida por sus rosas, de las que se obtiene el aceite de rosa, muy apreciado en perfumes."
+      },
+      {
+        "Burkina Faso": "Máscaras tradicionales – Se utilizan en danzas y ceremonias importantes, y tienen un significado cultural profundo."
+      },
+      {
+        "Burundi": "Tambor de Burundi – Los tambores tradicionales son un símbolo de la cultura y la música burundesa."
+      },
+      {
+        "Bhutan": "Los dzongs – Castillos o fortalezas que son parte de su tradición budista, usados como monasterios y centros administrativos."
+      },
+      {
+        "Cape Verde": "Morna – Un estilo de música tradicional caboverdiana, llena de emoción y nostalgia."
+      },
+      {
+        "Cambodia": "Angkor Wat – Un antiguo y gigantesco templo considerado una de las maravillas del mundo."
+      },
+      {
+        "Cameroon": "La danza Bikutsi – Un baile tradicional que es muy enérgico y colorido, usado en celebraciones."
+      },
+      {
+        "Canada": "Jarabe de arce – Un dulce que se saca de los árboles y se usa en panqueques y waffles."
+      },
+      {
+        "Qatar": "Falcón – En Catar, entrenar halcones es una tradición antigua, y las aves son muy apreciadas."
+      },
+      {
+        "Chad": "Lago Chad – Un lago muy importante en África, aunque se ha reducido mucho con el tiempo, sigue siendo vital para las personas y animales de la región."
+      },
+      {
+        "Chile": "Los moáis de Isla de Pascua – Estatuas gigantes que fueron construidas por los antiguos habitantes de la isla."
+      },
+      {
+        "China": "El panda gigante – Un animal tierno y símbolo nacional de China, que vive en los bosques de bambú."
+      },
+      {
+        "Cyprus": "Afrodita – Según la mitología griega, Afrodita, la diosa del amor, nació en la costa de Chipre."
+      },
+      {
+        "Vatican City": "La Capilla Sixtina – Un lugar sagrado lleno de pinturas famosas, como el techo pintado por Miguel Ángel."
+      },
+      {
+        "Colombia": "El café – Colombia es uno de los países más conocidos por producir café de alta calidad."
+      },
+      {
+        "Comoros": "Flor de ylang-ylang – Una flor muy fragante que se usa para hacer aceites y perfumes."
+      },
+      {
+        "North Korea": "Arirang – Un festival masivo de gimnasia y arte que involucra a miles de personas."
+      },
+      {
+        "South Korea": "K-pop – Un estilo de música pop coreana que es muy famoso en todo el mundo."
+      },
+      {
+        "Ivory Coast": "El cacao – Es uno de los principales productores de cacao, el ingrediente del chocolate."
+      },
+      {
+        "Costa Rica": "El bosque lluvioso – Un lugar lleno de naturaleza con muchos animales como monos y tucanes."
+      },
+      {
+        "Croatia": "El casco antiguo de Dubrovnik – Una ciudad medieval que parece sacada de un cuento de hadas."
+      },
+      {
+        "Cuba": "Los autos clásicos – En Cuba es común ver coches antiguos de los años 50 que se mantienen en buen estado."
+      },
+      {
+        "Denmark": "Lego – Los famosos bloques de construcción fueron inventados en Dinamarca."
+      },
+      {
+        "Dominica": "Los bosques tropicales – La isla está llena de selvas y tiene muchas cascadas y ríos para explorar."
+      },
+      {
+        "Ecuador": "La Mitad del Mundo – Un monumento que marca el lugar donde pasa la línea ecuatorial, dividiendo el hemisferio norte del sur."
+      },
+      {
+        "Egypt": "Las Pirámides – Monumentos antiguos que construyeron los faraones hace miles de años, y son una de las Siete Maravillas del Mundo."
+      },
+      {
+        "El Salvador": "Las pupusas – Un platillo típico, son tortillas de maíz rellenas de queso, frijoles o chicharrón."
+      },
+      {
+        "United Arab Emirates": "El Burj Khalifa – El edificio más alto del mundo, ubicado en Dubái."
+      },
+      {
+        "Eritrea": "La ceremonia del café – En Eritrea, preparar y beber café es una ceremonia especial, donde se comparte la bebida con amigos y familia."
+      },
+      {
+        "Slovakia": "Castillos medievales – Eslovaquia tiene muchos castillos antiguos, como el Castillo de Spiš, uno de los más grandes de Europa."
+      },
+      {
+        "Slovenia": "Lago Bled – Un hermoso lago con una isla en el centro, donde hay una pequeña iglesia."
+      },
+      {
+        "Spain": "La paella – Un plato tradicional de arroz con mariscos o carne, muy famoso en la región de Valencia."
+      },
+      {
+        "United States": "El Super Bowl – El evento deportivo más importante del año, donde juegan los equipos de fútbol americano."
+      },
+      {
+        "Estonia": "Cantar en coros – Cantar en grandes coros es una parte importante de la cultura estonia; tienen festivales de canto con miles de personas."
+      },
+      {
+        "Ethiopia": "El café – Se cree que Etiopía es el lugar de origen del café, y su cultura de café es muy importante."
+      },
+      {
+        "Philippines": "Jeepneys – Coloridos autobuses que son el principal medio de transporte en las ciudades."
+      },
+      {
+        "Finland": "Santa Claus – Según la tradición, Santa Claus vive en Finlandia, en una región llamada Laponia."
+      },
+      {
+        "Fiji": "Meke – Un baile tradicional de Fiyi, lleno de energía, que suele contar historias a través de movimientos."
+      },
+      {
+        "France": "La Torre Eiffel – Uno de los monumentos más conocidos del mundo, ubicado en París."
+      },
+      {
+        "Gabon": "El Parque Nacional Loango – Famoso por su vida salvaje, donde se pueden ver elefantes y otros animales en la playa."
+      },
+      {
+        "Gambia": "El río Gambia – Un río muy importante que atraviesa todo el país y es usado para transporte y pesca."
+      },
+      {
+        "Georgia": "El alfabeto georgiano – Uno de los alfabetos más únicos y antiguos del mundo."
+      },
+      {
+        "Ghana": "Los kente – Telas coloridas y tejidas a mano que se usan en ocasiones especiales."
+      },
+      {
+        "Grenada": "Nuez moscada – Granada es famosa por producir nuez moscada, una especia que se usa en muchas comidas y bebidas."
+      },
+      {
+        "Greece": "El Partenón – Un antiguo templo dedicado a la diosa Atenea, que está en Atenas."
+      },
+      {
+        "Guatemala": "El quetzal – Un ave muy colorida que es el símbolo nacional de Guatemala."
+      },
+      {
+        "Guyana": "Cataratas del Kaieteur – Una de las cataratas más altas y poderosas del mundo, ubicada en la selva de Guyana."
+      },
+      {
+        "Guinea": "Los tambores djembe – Instrumentos de percusión tradicionales muy importantes en la música guineana."
+      },
+      {
+        "Equatorial Guinea": "Bailes tradicionales fang – Un estilo de baile que es parte de las celebraciones y festividades de las comunidades fang."
+      },
+      {
+        "Guinea-Bissau": "Las máscaras Bijagós – Máscaras utilizadas en ceremonias tradicionales, hechas por el grupo étnico Bijagós."
+      },
+      {
+        "Haiti": "Kompa – Un estilo de música y baile muy popular y alegre en Haití."
+      },
+      {
+        "Honduras": "Las ruinas de Copán – Un sitio arqueológico que muestra lo que fue una antigua ciudad maya."
+      },
+      {
+        "Hungary": "El gulash – Un guiso típico de carne con especias, muy popular en Hungría."
+      },
+      {
+        "India": "El Taj Mahal – Un enorme palacio de mármol blanco construido en honor a una reina."
+      },
+      {
+        "Indonesia": "Los dragones de Komodo – El hogar del dragón de Komodo, el lagarto más grande del mundo."
+      },
+      {
+        "Iraq": "La antigua ciudad de Babilonia – Una de las civilizaciones más antiguas del mundo, famosa por los Jardines Colgantes."
+      },
+      {
+        "Iran": "Las alfombras persas – Alfombras tejidas a mano, conocidas por sus intrincados diseños y colores brillantes."
+      },
+      {
+        "Ireland": "San Patricio – El Día de San Patricio es una fiesta muy celebrada en Irlanda, donde todo se tiñe de verde."
+      },
+      {
+        "Iceland": "Las auroras boreales – Luces coloridas que se ven en el cielo de Islandia durante la noche."
+      },
+      {
+        "Marshall Islands": "Los atolones – Las Islas Marshall están formadas por pequeños atolones, que son islas en forma de anillo."
+      },
+      {
+        "Solomon Islands": "Tallas de madera – Los artesanos de las Islas Salomón son conocidos por sus tallas intrincadas de madera."
+      },
+      {
+        "Israel": "El Muro de los Lamentos – Un lugar sagrado en Jerusalén donde la gente va a rezar."
+      },
+      {
+        "Italy": "La pizza – Un plato famoso que se originó en Italia, especialmente en Nápoles."
+      },
+      {
+        "Jamaica": "Reggae – Un estilo de música nacido en Jamaica, hecho famoso por artistas como Bob Marley."
+      },
+      {
+        "Japan": "Origami – El arte de doblar papel para crear figuras como animales y flores."
+      },
+      {
+        "Jordan": "Petra – Una ciudad antigua tallada en las rocas que es una maravilla arqueológica."
+      },
+      {
+        "Kazakhstan": "Águilas cazadoras – En las montañas, los kazajos entrenan águilas para cazar, una tradición antigua."
+      },
+      {
+        "Kenya": "Safari – Kenia es uno de los mejores lugares del mundo para hacer safaris y ver animales como leones y elefantes."
+      },
+      {
+        "Kyrgyzstan": "Yurtas – Casas tradicionales redondas hechas de madera y tela, utilizadas por los pastores nómadas."
+      },
+      {
+        "Kiribati": "Lagunas azules – Kiribati es conocida por sus hermosas lagunas con agua azul cristalina."
+      },
+      {
+        "Kuwait": "Las torres de Kuwait – Un conjunto de torres modernas que son el símbolo de la ciudad de Kuwait."
+      },
+      {
+        "Laos": "Luang Prabang – Una ciudad llena de templos budistas y monasterios, famosa por su belleza y tranquilidad."
+      },
+      {
+        "Lesotho": "Sombrero mokorotlo – Un sombrero tradicional que es el símbolo nacional de Lesoto, hecho de paja."
+      },
+      {
+        "Latvia": "El festival de canto – Un gran evento cultural donde miles de personas cantan juntas canciones tradicionales."
+      },
+      {
+        "Lebanon": "Los cedros – Líbano es conocido por sus antiguos árboles de cedro, que aparecen en su bandera."
+      },
+      {
+        "Liberia": "La ropa tradicional kente – Telas coloridas que se usan para celebraciones especiales y ceremonias importantes."
+      },
+      {
+        "Libya": "El desierto del Sahara – Libia tiene una gran parte de este famoso desierto, el más grande del mundo."
+      },
+      {
+        "Liechtenstein": "Castillos medievales – Un pequeño país lleno de castillos antiguos, como el Castillo de Vaduz."
+      },
+      {
+        "Lithuania": "Cruces de la Colina de las Cruces – Un lugar donde hay miles de cruces, que es un símbolo de la resistencia y fe del pueblo lituano."
+      },
+      {
+        "Luxembourg": "Castillos – Luxemburgo es famoso por sus hermosos castillos, como el Castillo de Vianden."
+      },
+      {
+        "Madagascar": "Lémures – Madagascar es el hogar de estos animales simpáticos que solo viven en esta isla."
+      },
+      {
+        "Malaysia": "Las Torres Petronas – Dos torres gemelas altísimas en la ciudad de Kuala Lumpur, un símbolo moderno de Malasia."
+      },
+      {
+        "Malawi": "El Lago Malaui – Un gran lago lleno de peces coloridos, conocido como el “lago de las estrellas”."
+      },
+      {
+        "Maldives": "Islas y playas – Las Maldivas son famosas por sus pequeñas islas con playas de arena blanca y aguas cristalinas."
+      },
+      {
+        "Mali": "La ciudad de Tombuctú – Una ciudad antigua que fue muy importante para el comercio en África."
+      },
+      {
+        "Malta": "Los templos megalíticos – Malta tiene algunos de los templos más antiguos del mundo, construidos con grandes piedras."
+      },
+      {
+        "Morocco": "El zoco – Un mercado tradicional donde se pueden encontrar muchas cosas, desde especias hasta alfombras."
+      },
+      {
+        "Mauritius": "El dodo – Un ave que solo vivía en Mauricio, pero que se extinguió hace mucho tiempo."
+      },
+      {
+        "Mauritania": "La vida en el desierto – Gran parte de Mauritania está cubierta por el desierto del Sahara, y muchas personas viven como nómadas."
+      },
+      {
+        "Mexico": "El Día de los Muertos – Una celebración colorida donde las familias recuerdan a sus seres queridos fallecidos."
+      },
+      {
+        "Micronesia": "Las casas sobre el agua – En algunas islas de Micronesia, las casas tradicionales están construidas sobre pilotes en el agua."
+      },
+      {
+        "Moldova": "Los viñedos – Moldavia es famosa por sus vinos y tiene muchos viñedos y bodegas antiguas."
+      },
+      {
+        "Monaco": "El Gran Premio de Mónaco – Una famosa carrera de autos que se celebra en las calles de la ciudad."
+      },
+      {
+        "Mongolia": "Yurtas – Casas tradicionales redondas hechas de tela y madera, donde viven los nómadas mongoles."
+      },
+      {
+        "Montenegro": "La Bahía de Kotor – Una hermosa bahía rodeada de montañas y pueblos antiguos."
+      },
+      {
+        "Mozambique": "Islas Bazaruto – Unas islas con playas preciosas y aguas claras donde viven delfines y tortugas marinas."
+      },
+      {
+        "Namibia": "El Desierto del Namib – Uno de los desiertos más antiguos del mundo, con dunas de arena gigantes."
+      },
+      {
+        "Nauru": "La isla más pequeña – Nauru es uno de los países más pequeños del mundo, con solo una isla de 21 km²."
+      },
+      {
+        "Nepal": "El Monte Everest – La montaña más alta del mundo está en Nepal, y es famosa por ser un reto para los escaladores."
+      },
+      {
+        "Nicaragua": "Lago Nicaragua – Un lago enorme donde viven tiburones de agua dulce, algo muy raro en el mundo."
+      },
+      {
+        "Niger": "El Gran Desierto del Sahara – Gran parte de Níger está cubierta por el desierto del Sahara."
+      },
+      {
+        "Nigeria": "El Nollywood – La industria cinematográfica de Nigeria es una de las más grandes del mundo, después de Hollywood y Bollywood."
+      },
+      {
+        "Norway": "Los fiordos – Hermosos valles llenos de agua de mar rodeados por altas montañas."
+      },
+      {
+        "New Zealand": "Los kiwis – Un pájaro que no vuela, símbolo de Nueva Zelanda, y también se les llama así a las personas que viven allí."
+      },
+      {
+        "Oman": "Las caravanas de camellos – En Omán, las caravanas de camellos son una tradición que viene de su historia en el desierto."
+      },
+      {
+        "Netherlands": "Los molinos de viento – Los molinos son muy comunes y se usaban antiguamente para bombear agua."
+      },
+      {
+        "Pakistan": "Los camiones decorados – Los camiones en Pakistán están decorados con colores brillantes y diseños artísticos."
+      },
+      {
+        "Palau": "Los lagos de medusas – Palaos tiene un lago lleno de medusas que no pican, donde se puede nadar."
+      },
+      {
+        "Panama": "El Canal de Panamá – Una gran vía de agua que conecta el Océano Atlántico con el Pacífico, muy importante para el comercio."
+      },
+      {
+        "Papua New Guinea": "Diversidad cultural – Tiene más de 800 lenguas diferentes y muchas tribus con culturas muy distintas."
+      },
+      {
+        "Paraguay": "La guarania – Un estilo de música tradicional de Paraguay, que suele ser melancólica y hermosa."
+      },
+      {
+        "Peru": "Machu Picchu – Una ciudad antigua de los incas, ubicada en lo alto de las montañas, y una de las maravillas del mundo."
+      },
+      {
+        "Poland": "Pierogi – Un tipo de empanada rellena, muy común en Polonia y muy sabrosa."
+      },
+      {
+        "Portugal": "El fado – Un estilo de música tradicional portuguesa, lleno de emoción y melancolía."
+      },
+      {
+        "United Kingdom": "Las cabinas telefónicas rojas – Un símbolo clásico de Londres, aunque ya no se usan tanto."
+      },
+      {
+        "Central African Republic": "Parque Nacional Dzanga-Sangha – Un lugar donde se pueden ver gorilas y elefantes en su hábitat natural."
+      },
+      {
+        "Czech Republic": "El Reloj Astronómico de Praga – Un reloj muy antiguo y famoso, con más de 600 años de historia."
+      },
+      {
+        "North Macedonia": "El Lago Ohrid – Uno de los lagos más antiguos del mundo, compartido con Albania."
+      },
+      {
+        "Republic of the Congo": "Selvas tropicales – Gran parte del Congo está cubierta de densas selvas llenas de animales como gorilas y elefantes."
+      },
+      {
+        "Democratic Republic of the Congo": "El río Congo – Uno de los ríos más largos y profundos del mundo, muy importante para el país."
+      },
+      {
+        "Dominican Republic": "El merengue – Un estilo de música y baile muy alegre y popular en la República Dominicana."
+      },
+      {
+        "South Africa": "El Parque Nacional Kruger – Un lugar famoso para hacer safaris y ver animales salvajes como leones, elefantes y jirafas."
+      },
+      {
+        "Rwanda": "Los gorilas de montaña – Ruanda es uno de los pocos lugares donde se pueden ver gorilas de montaña en su hábitat natural."
+      },
+      {
+        "Romania": "El Castillo de Drácula – Un castillo en Transilvania que está relacionado con la leyenda de Drácula."
+      },
+      {
+        "Russia": "La Plaza Roja – Una famosa plaza en Moscú, donde se encuentra la Catedral de San Basilio, con sus cúpulas de colores."
+      },
+      {
+        "Samoa": "El arte del tatuaje tradicional – En Samoa, los tatuajes tradicionales llamados 'pe'a' son muy importantes en su cultura."
+      },
+      {
+        "Saint Kitts and Nevis": "Playas de arena negra – Debido a la actividad volcánica, algunas de sus playas tienen arena negra en lugar de blanca."
+      },
+      {
+        "San Marino": "La Torre de Guaita – Uno de los tres castillos en la cima del Monte Titano, que ofrece vistas impresionantes."
+      },
+      {
+        "Saint Vincent and the Grenadines": "Las islas de Tobago Cays – Un grupo de pequeñas islas rodeadas por arrecifes de coral, ideales para el buceo."
+      },
+      {
+        "Saint Lucia": "Los Pitons – Dos montañas volcánicas que son el símbolo de la isla y un lugar ideal para hacer senderismo."
+      },
+      {
+        "Sao Tome and Principe": "El cacao – Este país es famoso por su producción de cacao, que se utiliza para hacer chocolate delicioso."
+      },
+      {
+        "Senegal": "La danza sabar – Una danza tradicional en Senegal, acompañada por tambores, que se baila en festivales y celebraciones."
+      },
+      {
+        "Serbia": "Fortaleza de Belgrado – Una fortaleza antigua que se encuentra en la confluencia de los ríos Danubio y Sava."
+      },
+      {
+        "Seychelles": "Las playas – Seychelles es conocido por sus hermosas playas de arena blanca y agua azul cristalina."
+      },
+      {
+        "Sierra Leone": "Las minas de diamantes – Sierra Leona es famosa por sus minas de diamantes, que son un recurso importante para el país."
+      },
+      {
+        "Singapore": "Los jardines de la bahía – Unos enormes jardines futuristas con grandes estructuras en forma de árboles."
+      },
+      {
+        "Syria": "Las ruinas de Palmira – Un antiguo sitio arqueológico lleno de templos y columnas de piedra."
+      },
+      {
+        "Somalia": "El mercado de camellos de Hargeisa – Un mercado donde se compran y venden camellos, un animal muy importante en Somalia."
+      },
+      {
+        "Sri Lanka": "El té de Ceilán – Sri Lanka es famoso por sus plantaciones de té, que se exporta a todo el mundo."
+      },
+      {
+        "Eswatini": "El baile de la caña – Un festival tradicional donde miles de mujeres jóvenes bailan con cañas largas."
+      },
+      {
+        "Sudan": "Las pirámides de Meroe – Un conjunto de antiguas pirámides construidas por el Reino de Kush."
+      },
+      {
+        "South Sudan": "Río Nilo Blanco – Un importante río que cruza Sudán del Sur y forma parte del sistema del Nilo."
+      },
+      {
+        "Sweden": "Los muebles de Ikea – Suecia es famosa por sus diseños de muebles prácticos y modernos, que se venden en todo el mundo."
+      },
+      {
+        "Switzerland": "El chocolate suizo – Suiza es conocida por hacer algunos de los chocolates más ricos del mundo."
+      },
+      {
+        "Suriname": "El Parque Natural de Surinam Central – Un gran parque lleno de selva tropical, donde se puede ver la biodiversidad de la región."
+      },
+      {
+        "Thailand": "El elefante – Los elefantes son muy importantes en la cultura tailandesa y se les cuida en santuarios."
+      },
+      {
+        "Tanzania": "El Monte Kilimanjaro – La montaña más alta de África, que muchos aventureros intentan escalar."
+      },
+      {
+        "Tajikistan": "Las montañas Pamir – Una cadena montañosa muy alta y hermosa, conocida como 'el techo del mundo'."
+      },
+      {
+        "Timor-Leste": "El café – Timor Oriental es conocido por producir un café de alta calidad, que se exporta a muchos países."
+      },
+      {
+        "Togo": "Las máscaras tradicionales – En las festividades de Togo se usan máscaras coloridas para las danzas ceremoniales."
+      },
+      {
+        "Tonga": "La lucha del tau’olunga – Un baile tradicional que se realiza en bodas y celebraciones."
+      },
+      {
+        "Trinidad and Tobago": "El carnaval – Uno de los carnavales más coloridos y vibrantes del mundo, lleno de música y bailes."
+      },
+      {
+        "Tunisia": "El anfiteatro de El Djem – Un coliseo romano muy bien conservado, donde antiguamente se hacían combates de gladiadores."
+      },
+      {
+        "Turkmenistan": "La Puerta al Infierno – Un cráter de gas que ha estado ardiendo durante décadas en el desierto de Karakum."
+      },
+      {
+        "Turkey": "El Bazar de Estambul – Un mercado gigante donde se pueden comprar especias, alfombras y todo tipo de artículos."
+      },
+      {
+        "Tuvalu": "Islas y lagunas – Un país formado por pequeñas islas, rodeadas de hermosas lagunas de agua clara."
+      },
+      {
+        "Ukraine": "La catedral de Santa Sofía – Una iglesia muy antigua y hermosa, que es patrimonio de la humanidad."
+      },
+      {
+        "Uganda": "El gorila de montaña – Uganda es uno de los pocos lugares donde se pueden ver gorilas de montaña en la naturaleza."
+      },
+      {
+        "Uruguay": "El mate – Una bebida tradicional que se toma en Uruguay y otros países de Sudamérica, hecha con yerba mate."
+      },
+      {
+        "Uzbekistan": "La Ruta de la Seda – Uzbekistán fue un importante punto de comercio en esta antigua ruta que conectaba Asia y Europa."
+      },
+      {
+        "Vanuatu": "El volcán Yasur – Un volcán activo donde los visitantes pueden ver las erupciones de cerca."
+      },
+      {
+        "Venezuela": "El Salto Ángel – La cascada más alta del mundo, que se encuentra en el Parque Nacional Canaima."
+      },
+      {
+        "Vietnam": "Los campos de arroz – Vietnam es conocido por sus hermosos campos de arroz en terrazas, especialmente en el norte del país."
+      },
+      {
+        "Yemen": "La ciudad vieja de Sana’a – Una de las ciudades más antiguas del mundo, con casas construidas con ladrillos de barro."
+      },
+      {
+        "Djibouti": "El Lago Assal – Un lago salado muy grande y el punto más bajo de África."
+      },
+      {
+        "Zambia": "Las cataratas Victoria – Una de las cascadas más grandes y espectaculares del mundo, ubicada entre Zambia y Zimbabue."
+      },
+      {
+        "Zimbabwe": "Las Ruinas de Gran Zimbabue – Un antiguo conjunto de estructuras de piedra que muestran el poder de un reino pasado."
+      }
+    ]
+  }
+  

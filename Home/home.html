@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Gamificación con IA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/Logo.jpeg">
+</head>
+
+<body>
+
+    <!-- Loading Spinner -->
+    <div id="spinner" class="spinner" style="display: none;"></div>
+
+    <header>
+        <div class="header-container">
+            <div class="burger-menu">
+                <button class="burger-icon" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+                <div id="menuContent" class="burger-content" style="display: none;">
+                    <p id="usernameDisplay">Nombre Apellidos</p>
+                    <p id="roleDisplay"></p>
+                    <a href="#"><button>Ver Perfil</button></a>
+                    <a href="../LeaderBoard/students.html" id="studentsLink"><button>Ver Estudiantes</button></a>
+                    <a href="../login.html"><button>Cerrar Sesión</button></a>
+                </div>
+            </div>
+            <h1>Plataforma Educativa con Gamificación e IA</h1>
+        </div>
+    </header>
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h2>Juego 1: Los detectives del pasado</h2>
+                <img src="../Images/Detective.jpeg" alt="Detectives del pasado" class="game-image">
+                <p>Te enfrentarás a cuatro retos únicos, cada uno basado en adivinanzas de cultura general...</p>
+                <p id="mazePoints">Points: 0</p>
+                <a href="https://view.genially.com/6717915d14640e6036934ab0"><button onclick="showSpinner()">Comenzar Juego</button></a>
+            </div>            
+            <div class="swiper-slide">
+                <h2>Juego 2: Geografia</h2>
+                <img src="../Images/Geography.jpeg" alt="Detectives del pasado" class="game-image" style="max-width: 15%;">
+                <p>¡Pon a prueba tus conocimientos de geografía mundial!</p>
+                <p id="geographyPoints">Points: 0</p> <!-- Points displayed here -->
+                <a href="../Geography/geography.html"><button onclick="showSpinner()">Comenzar Juego</button></a>
+            </div>
+            <div class="swiper-slide">
+                <h2>Juego 3: PlaceHolder</h2>
+                <p>PLS SEND HELP</p>
+                <p id="placeholderPoints1">Points: 0</p> <!-- Points displayed here -->
+                <a href="../Geography/geography.html"><button onclick="showSpinner()">Comenzar Juego</button></a>
+            </div>
+            <div class="swiper-slide">
+                <h2>Juego 4: PlaceHolder</h2>
+                <p>TEXT AAAAAAAAAAAAAAAAAA</p>
+                <p id="placeholderPoints2">Points: 0</p> <!-- Points displayed here -->
+                <a href="https://www.google.com"><button onclick="showSpinner()">Comenzar Juego</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Add Navigation Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Plataforma Educativa. Todos los derechos reservados.</p>
+        <a href="#">Política de Privacidad</a> | <a href="#">Contáctanos</a>
+    </footer>
+
+    <script src="homeScript.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

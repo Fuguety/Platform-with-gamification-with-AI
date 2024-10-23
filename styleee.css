@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-image: url('https://wallpaperaccess.com/full/8351136.jpg'); /* Same background as home page */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(59, 66, 82, 0.9); /* Deep Blue Gray */
+    color: #D8DEE9; /* Light Gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    background-color: rgba(46, 52, 64, 0.9); /* Dark Blueish Gray from home page */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.login-section {
+    width: 50%;
+    background-color: rgba(59, 66, 82, 0.9); /* Deep Blue Gray (like the swiper slides) */
+    padding: 40px;
+    border-radius: 10px;
+    color: #D8DEE9; /* Light Gray for text */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ECEFF4; /* Off White text */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #ECEFF4; /* Off White */
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6e0dd; /* Light form input */
+    color: black;
+}
+
+input::placeholder {
+    color: #888; /* Soft gray placeholder */
+}
+
+span {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #888; /* Light gray for the helper text */
+}
+
+#forgotPassword {
+    color: #81A1C1; /* Soft Blue (for links) */
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#forgotPassword:hover {
+    color: #a46fff;
+}
+
+button {
+    padding: 15px;
+    background-color: #8257e6; /* Purple from home page */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6931ca; /* Darker purple on hover */
+}
+
+.extra-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.extra-links :hover {
+    color: #a46fff;
+}
+
+.extra-links a {
+    color: #81A1C1; /* Soft Blue for links */
+    text-decoration: none;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Light gray slider background */
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #8257e6; /* Purple switch when checked */
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+#roleLabel {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #D8DEE9; /* Light Gray */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-section, .login-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .image-section img {
+        max-width: 80%; /* Make the image smaller on mobile */
+    }
+
+    .login-section {
+        width: 90%;
+        padding: 20px;
+    }
+}

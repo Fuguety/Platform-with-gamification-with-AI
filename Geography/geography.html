@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geography Game: World Regions</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./Images/Logo.jpeg">
+</head>
+<body>
+
+  <!-- Back Button -->
+  <div class="back-button">
+    <button onclick="goBack()">← Volver</button>
+  </div>
+
+  <h1>Geography Game: Select a Region</h1>
+  <p style="font-size: x-large;">Pick a region of the world to start:</p>
+  
+  <div id="points-display">
+    <h2>Points: <span id="points">0</span></h2>
+  </div>
+
+  <div style="position: relative; display: inline-block;">
+    <img id="map" src="https://img.freepik.com/vector-gratis/dibujo-tema-vintage-mapa-mundial_52683-26577.jpg" alt="World Map" style="width: 100%; height: auto;">
+    
+    <!-- The flag image that will overlay the map -->
+    <img id="country-flag" src="" alt="Country Flag" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; width: 100%; height: auto;">
+  </div>
+
+  <div class="regions">
+    <button onclick="selectRegion('Africa')">Africa</button>
+    <button onclick="selectRegion('Asia')">Asia</button>
+    <button onclick="selectRegion('Europa')">Europa</button>
+    <button onclick="selectRegion('America del Sur')">America del Sur</button>
+    <button onclick="selectRegion('America del Norte')">America del Norte</button>
+    <button onclick="selectRegion('Oceania')">Oceania</button>
+  </div>
+
+  <div id="game-area">
+    <div id="question">Guess the country from the region:</div>
+    <div class="country-options">
+      <button id="option1" onclick="checkAnswer(1)">Option 1</button>
+      <button id="option2" onclick="checkAnswer(2)">Option 2</button>
+      <button id="option3" onclick="checkAnswer(3)">Option 3</button>
+      <button id="option4" onclick="checkAnswer(4)">Option 4</button>
+    </div>
+    <div id="result"></div>
+    <br>
+    <div id="curiosity"></div>
+    <br>
+  </div>
+
+
+  <div id="gemini-chat-container">
+    <h3 style="color: #D8DEE9;">Habla con Gemini sobre el país</h3>
+    <div id="gemini-chat-box">
+      <input id="chat-input" type="text" placeholder="Escribe tu pregunta..." />
+      <button onclick="sendChatMessage()">Enviar</button>
+      <div id="gemini-chat-response"></div>
+    </div>
+  </div>
+  
+  <br><br>
+  <div id="continue"></div>
+
+  
+
+
+  <script>
+    function goBack() {
+        window.history.back();
+    }
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura del Saber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .question {
+            margin: 20px;
+        }
+        .result {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡La Aventura del Saber!</h1>
+    <p>Somos un grupo de intrépidos aventureros que recorremos el mundo en busca de conocimientos perdidos...</p>
+    <div id="game-container">
+        <div id="intro">
+            <p>¿Estás listo para viajar en el tiempo y resolver los misterios que te esperan?</p>
+            <button onclick="startGame()">¡Comenzar Aventura!</button>
+        </div>
+
+        <div id="question-container" style="display:none;">
+            <div class="question">
+                <h2 id="question">Pregunta aparecerá aquí</h2>
+                <button onclick="checkAnswer(0)">Opción 1</button>
+                <button onclick="checkAnswer(1)">Opción 2</button>
+                <button onclick="checkAnswer(2)">Opción 3</button>
+                <button onclick="checkAnswer(3)">Opción 4</button>
+            </div>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                question: "¿En qué año se descubrió América?",
+                options: ["1492", "1789", "1914", "1804"],
+                answer: 0,
+                feedback: "¡Correcto! 1492 es el año en que Colón llegó a América."
+            },
+            {
+                question: "¿Cuál es el planeta más grande del sistema solar?",
+                options: ["Tierra", "Júpiter", "Marte", "Saturno"],
+                answer: 1,
+                feedback: "¡Bien hecho! Júpiter es el planeta más grande."
+            },
+            {
+                question: "¿Quién pintó la Mona Lisa?",
+                options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+                answer: 2,
+                feedback: "¡Correcto! Leonardo da Vinci es el autor de la Mona Lisa."
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+
+        function startGame() {
+            document.getElementById('intro').style.display = 'none';
+            document.getElementById('question-container').style.display = 'block';
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const questionObj = questions[currentQuestionIndex];
+            document.getElementById('question').textContent = questionObj.question;
+            const buttons = document.querySelectorAll('button');
+            for (let i = 1; i <= 4; i++) {
+                buttons[i].textContent = questionObj.options[i - 1];
+            }
+            document.getElementById('feedback').textContent = ''; // Clear feedback
+        }
+
+        function checkAnswer(option) {
+            const questionObj = questions[currentQuestionIndex];
+            if (option === questionObj.answer) {
+                document.getElementById('feedback').textContent = questionObj.feedback;
+                document.getElementById('feedback').className = 'result';
+                currentQuestionIndex++;
+                if (currentQuestionIndex < questions.length) {
+                    setTimeout(loadQuestion, 2000);
+                } else {
+                    document.getElementById('feedback').textContent = '¡Felicidades! Has completado la aventura del saber.';
+                }
+            } else {
+                document.getElementById('feedback').textContent = '¡Respuesta incorrecta! Intenta de nuevo.';
+                document.getElementById('feedback').className = 'error';
+            }
+        }
+    </script>
+</body>
+</html>

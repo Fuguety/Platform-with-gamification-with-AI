@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Back Button -->
+    <div class="back-button">
+        <button onclick="goBack()">← Volver</button>
+    </div>
+
+    <div class="leaderboard-container">
+        <h1>Leaderboard</h1>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showGame('map')">Map</button>
+            <button class="tab-btn" onclick="showGame('geography')">Geography</button>
+        </div>
+
+        <!-- Leaderboard for Map Game -->
+        <div id="map" class="leaderboard">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Estudiante</th>
+                        <th>Puntos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Carlos</td>
+                        <td>31</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Julia</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Juan</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Leaderboard for Geography Game -->
+        <div id="geography" class="leaderboard" style="display: none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Estuduante</th>
+                        <th>Puntos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juan</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Carlos</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Julia</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
