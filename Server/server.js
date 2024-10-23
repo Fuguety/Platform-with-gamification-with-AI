@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.post('/api/gemini', async (req, res) => {
-    const apiKey = 'AIzaSyDfM39XpHwaBQSOFu1HY2rYr8SduBfgb3I'; // Replace with your Gemini API key
+    const apiKey = 'API KEY'; // Replace with your Gemini API key
     const { prompt } = req.body;
 
     try {
