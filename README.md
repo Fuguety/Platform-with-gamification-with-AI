@@ -1,7 +1,9 @@
-# Hack Project
+# Platform with gamification with AI
 
 ## Overview
 This project is a web-based platform focused on gamification with an emphasis on various aspects like Geography, Leaderboards, and Exploration. It provides a user interface for login and interaction, along with several server-side features.
+
+Made for Hack 4 Edu: https://profuturo.education/hack4edu/
 
 ## Features
 - **Login Page**: A functional login page (`login.html`) for user authentication.
@@ -46,3 +48,5 @@ MiPark is distributed under the MIT License. See the `LICENSE` file for more det
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
+
+Developed with ❤️ by the HackForEdu team.
