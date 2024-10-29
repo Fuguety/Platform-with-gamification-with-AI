@@ -7,7 +7,8 @@ Made for Hack 4 Edu: https://profuturo.education/hack4edu/
 
 ## Features
 - **Login Page**: A functional login page (`login.html`) for user authentication.
-- **Geography and Exploration**: Separate modules related to geographical and exploration-based data.
+- **Geography and Exploration**: Separate modules related to geographical and exploration-based data, uses AI to enhance the learing.
+- **History**: Exploration game with question related to history.
 - **LeaderBoard**: Keeps track of user scores and rankings.
 - **Interactive UI**: Styled using `styleee.css` and functional scripts in `script.js`.
 - **Image Resources**: Stored in the `Images` directory for use throughout the platform.
