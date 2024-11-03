@@ -44,7 +44,7 @@ Interested in contributing to MiPark? Here are some ways you can help:
 
 ## License
 
-MiPark is distributed under the MIT License. See the `LICENSE` file for more details.
+Platform with gamification with AI is distributed under the MIT License. See the `LICENSE` file for more details.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
