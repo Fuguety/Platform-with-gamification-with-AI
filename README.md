@@ -51,3 +51,12 @@ MiPark is distributed under the MIT License. See the `LICENSE` file for more det
 ---
 
 Developed with ❤️ by the HackForEdu team.
+
+## Contributors
+
+- **Ainhara Olave Rojo** - Graphic Artist
+- **Alonso García Hernández** - Logistic Manager
+- **Julia García Fraile** - Project Designer
+- **Lucía Guinaldo Valle** - Game Designer
+- **Lucas Barreiros Gomes** - Software Engineer
+
